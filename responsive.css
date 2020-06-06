@@ -1,0 +1,55 @@
+/* --------------------------
+---------X-Small Device---------
+-------------------------- */
+@media (max-width: 575.98px) {
+.hero-content .contant h1{
+font-size: 2.5rem;
+}
+.mt-xs-4{
+margin-top: 1.5rem;
+}
+.footer img{
+width:30%;
+margin-bottom: 15px;
+}
+.footer p{
+padding: 0px 110px;
+}
+.footer .logo{
+text-align: center !important;
+
+}
+/* --------------------------
+---------Small Device---------
+-------------------------- */
+
+@media (min-width: 576px) and (max-width: 767.8px){
+.card-img-top{
+height: 300px;
+}
+.footer img{
+width:100%;
+margin-bottom: 15px;
+}
+.footer p{
+padding: 0px
+}
+
+
+}
+/* --------------------------
+---------Medium Device---------
+-------------------------- */
+@media (min-width:768px) and (max-width: 991.8px) {
+.service .card .card-img-top {
+height: 240PX;
+}
+.footer .item.social > a{
+font-size: 18px;
+width: 30px;
+height: 30px;
+line-height: 30px;
+margin-left: 5px;
+
+}
+}
